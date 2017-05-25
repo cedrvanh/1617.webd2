@@ -42,7 +42,7 @@ a {
     display: block;
     width: 100px;
     margin: 30px auto 0 auto;
-    padding: 7.5px 15px;
+    padding: 7.5px 20px;
     border: 2px solid #7acbe4;
     background: #7acbe4;
     color: white;
@@ -165,4 +165,10 @@ header video {
     padding: 20px;
     background: #FFF;
     margin-bottom: 50px;
+}
+
+.contact_home {
+    text-align: center;
+    padding: 150px 0;
+    color: #4e4e4e;
 }
