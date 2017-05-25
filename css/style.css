@@ -1,0 +1,168 @@
+
+/*         GLOBALE STIJLEN          */ 
+
+@font-face {
+    src: url(font/)
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: #FFF;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h3 {
+    font-size: 36px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+p {
+    font-weight: 200;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+}
+
+.light {
+    font-weight: 100;
+}
+
+.btn {
+    display: block;
+    width: 100px;
+    margin: 30px auto 0 auto;
+    padding: 7.5px 15px;
+    border: 2px solid #7acbe4;
+    background: #7acbe4;
+    color: white;
+    transition: all .4s ease;
+}
+
+.btn:hover {
+    background: #FFF;
+    color: #7acbe4;
+}
+
+.container {
+    width: 70%;
+    margin: 0 15%;
+}
+
+
+/*         HEADER          */   
+header {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 600px;
+    background: rgba(122, 203, 228, .6);
+}
+
+header h2 {
+    color: white;
+    font-size: 42px;
+}
+
+header video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    min-width: 100%;
+    min-height: 100%;
+    width: 100%;
+    height: 100%;
+    z-index: -100;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.header_text {
+    margin-top: 100px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+.nav .logo {
+    font-size: 24px;
+    font-weight: 900;
+    padding: 20px 0;
+    color: white;
+}
+
+.nav li {
+    list-style: none;
+    display: inline-block;
+}
+
+.nav a {
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    line-height: 1.4;
+}
+
+.about_home {
+    text-align: center;
+    padding: 150px 0;
+    color: #4e4e4e;
+}
+
+.about_text {
+    width: 80%;
+    min-width: 300px;
+    margin: 0 auto;
+}
+
+.portfolio_home {
+    background: #F5F5F5;
+    padding: 100px 0;
+}
+
+.portfolio_home:after {
+    content: '';
+    display: table;
+    clear: both;
+}
+
+.portfolio_home h3 {
+    text-align: center;
+}
+
+.portfolio_item {
+    width: 48.75%;
+    float: left;
+    overflow: hidden;
+}
+
+.portfolio_item img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio_item:nth-child(odd) {
+    margin-right: 2.5%;
+}
+
+.portfolio_content {
+    padding: 20px;
+    background: #FFF;
+    margin-bottom: 50px;
+}
