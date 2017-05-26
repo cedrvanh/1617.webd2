@@ -71,8 +71,14 @@ ul li {
 }
 
 .container_sm {
-    width: 60%;
-    margin: 0 20%;
+    width: 55%;
+    margin: 0 22.5%;
+}
+
+.container_sm:after {
+    display: table;
+    content: "";
+    clear: both;
 }
 
 /*         NAVIGATION          */ 
@@ -237,7 +243,7 @@ ul li {
 /*         CONTACT FORM         */ 
 
 .contact {
-    padding: 100px;
+    padding: 100px 0;
     background: #F5F5F5;
 }
 
@@ -269,12 +275,9 @@ ul li {
 }
 
 .contactform .right {
+    float: left;
     width: 45%;
     margin-left: 5%;
-}
-
-.right {
-    float: left;
 }
 
 .contact_submit {
@@ -292,10 +295,26 @@ ul li {
     color: #4e4e4e;
 }
 
+.location {
+    padding: 100px 0;
+}
 
+.location .left {
+    width: 25%;
+    margin-right: 5%;
+    float: left;
+}
 
+.location .right {
+    float: left;
+    width: 70%;
+    height: 450px;
+}
 
-
+#divMap {
+    width: 100%;
+    height: 450px;
+}
 
 /*         FOOTER          */ 
 
