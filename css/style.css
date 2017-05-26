@@ -1,10 +1,6 @@
 
 /*         GLOBALE STIJLEN          */ 
 
-@font-face {
-    src: url(font/)
-}
-
 * {
     margin: 0;
     padding: 0;
@@ -33,9 +29,19 @@ p {
 a {
     text-decoration: none;
 }
+ 
+ul li {
+    list-style: none;
+}
 
 .light {
     font-weight: 100;
+}
+
+.logo {
+    font-family: 'Pacifico', sans-serif;
+    font-size: 42px;
+    text-transform: lowercase;
 }
 
 .btn {
@@ -61,7 +67,7 @@ a {
 
 
 /*         HEADER          */   
-header {
+.header {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -69,12 +75,12 @@ header {
     background: rgba(122, 203, 228, .6);
 }
 
-header h2 {
+.header h2 {
     color: white;
     font-size: 42px;
 }
 
-header video {
+.header video {
     position: absolute;
     top: 0;
     left: 0;
@@ -171,4 +177,26 @@ header video {
     text-align: center;
     padding: 150px 0;
     color: #4e4e4e;
+}
+
+/*         FOOTER          */ 
+
+.footer {
+    background: #7acbe4;
+}
+
+.footer:after {
+    display: table;
+    content: '';
+    clear: both;
+}
+
+.footer_columns {
+    float: left;
+    padding: 20px;
+}
+
+.footer_columns h4 {
+    font-weight: 500;
+    margin-bottom: 20px;
 }

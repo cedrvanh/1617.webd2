@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
+    <header class="header">
+        <section class="container">
             <div class="nav">
                 <h3 class="logo">Lounge.</h3>
                 <ul>
@@ -26,24 +27,24 @@
             <div class="header_text">
                 <h2><span class="light">WIJ MAKEN</span><br> ELEGANTE &#38; FUNCTIONELE WEBSITES<br><span class="light"> VOOR ALLE DOELGROEPEN</span></h2>
             </div>
-        </div>
+        </section>
         <video autoplay="true" loop="true">
             <source src="vid/background.mp4" type"video/mp4">
         </video>
     </header>
-    <div class="about_home">
-        <div class="container">
+    <section class="about_home">
+        <section class="container">
             <div class="about_text">
-                <h3>Welkom bij Lounge.</h3>
+                <h3>Welkom bij <span class="logo">Lounge.</span></h3>
                 <p>Wij zijn een gedreven Webdesign bureau te Kortrijk. Sinds 2012 specialiseren we ons in het ontwerpen van digitale websites voor alle sectoren. 
                 Met een gedreven team van specialisten werken we vol met passie aan creatieve oplossingen voor al jouw digitale problemen. Van websites tot mobiele applicaties.
                 Ons doel is het creëren van hoge kwaliteit digitale communicatie dat een impact maakt.</p>
                 <a href="#" class="btn">Leer meer</a>
             </div>
-        </div>
-    </div>
-    <div class="portfolio_home">
-        <div class="container">
+        </section>
+    </section>
+    <section class="portfolio_home">
+        <section class="container">
             <div class="portfolio_item">
                 <picture class="portfolio_image">
                     <img src="img/item1.jpg" alt='Website 1'></img>
@@ -85,32 +86,39 @@
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse semper erat metus, quis commodo arcu accumsan vitae. Aenean sed nisi.</p>
                 </div> 
             </div>
-        </div>
-    </div>
-    <div class="contact_home">
+        </section>
+    </section>
+    <section class="contact_home">
         <h2>Aarzel niet om ons te contacteren met eventuele vragen!</h2>
         <a href="#" class="btn">Contacteer</a>
-    </div>
-    <!--<footer class="footer">
+    </section>
+    <<footer class="footer">
         <div class="container">
             <ul class="footer_columns">
-                <li>Lounge.</li>
-                <li>Sitemap
-                    <ul class="footer_columns">
-                        <li><a href="#">Home</li>
-                        <li><a href="#">Portfolio</li>
-                        <li><a href="#">Team</li>
-                        <li><a href="#">Contact</li>
-                    </ul>
-                </li>
-                <li>Get in touch
-                    <ul class="footer_columns">
-                        <li>Kortrijk</li>
-                        <li>+32 478 124 22</li>
-                    </ul>
-                </li>
+                <div class="footer_columns">
+                    <li class="logo">Lounge.</li>
+                </div>    
+                <div class="footer_columns">
+                    <li><h4>Sitemap</h4>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">Portfolio</a></li>
+                            <li><a href="#">Team</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                    
+                </div>
+                <div class="footer_columns">
+                    <li><h4>Get in touch</h4>
+                        <ul>
+                            <li>Kortrijk</li>
+                            <li>Kortrijksesteenweg 122</li>
+                            <li>+32 478 124 22</li>
+                        </ul>
+                    </li>
+                </div>
             </ul>
         </div>
-    </footer>-->
+    </footer>
 </body>
 </html>
