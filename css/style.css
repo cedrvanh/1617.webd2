@@ -85,6 +85,8 @@ ul li {
 /*         NAVIGATION          */ 
 
 .main-nav {
+    width: 70%;
+    margin: 0 15%;
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
@@ -115,6 +117,10 @@ ul li {
 
 .main-nav a:hover, .main-nav h3:hover{
     transform: translateY(5px);
+}
+
+.mobile-nav {
+    display: none;
 }
 
 
@@ -421,4 +427,54 @@ ul li {
 
 .footer_columns .logo {
     color: white;
+}
+
+
+@media only screen and (max-width: 650px) {
+    .container {
+        width: 95%;
+        margin: 0 2.5%;
+    }
+    .main-nav {
+        display: none;
+    }
+    .mobile-nav {
+        display: block;
+        background: #7acbe4;
+        width: 100%;
+        font-family: 'Roboto', sans-serif;
+        text-transform: uppercase;
+    }
+
+    .mobile-nav .logo {
+        font-size: 24px;
+        font-weight: 900;
+        padding: 20px;
+        margin: 0;
+        color: white;
+        transition: all .2s ease-in-out;
+    }
+    .mobile-nav .icon {
+        position: absolute;
+        cursor: pointer;
+        top: 16px;
+        right: 10px;
+        font-size: 32px;
+        color: white;
+    }
+    .mobile-nav ul {
+        display: none;
+    }
+    .mobile-nav .nav li {
+        background: #6EB7CE;
+        display: block;
+        list-style: none;
+    }
+    .mobile-nav .nav a {
+        text-align: center;
+        padding: 20px;
+    }
+    .mobile-nav .nav a:hover {
+        background: #5E9DB1;
+    }
 }

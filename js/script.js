@@ -1,3 +1,16 @@
+function mobileNav() {
+    var el = document.getElementById('dropdown');
+
+    if(el.style.display == "none") {
+        el.style.display="block";
+    }
+    else {
+        el.style.display="none";
+    }
+}
+
+
+
 // global var googlemaps
 var googlemaps;
 
