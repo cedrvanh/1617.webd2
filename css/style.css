@@ -218,9 +218,13 @@ ul li {
 
 .portfolio_content {
     display: block;
-    padding: 20px;
+    overflow: hidden;
+    padding: 10px;
     background: #FFF;
     margin-bottom: 50px;
+    max-height: 150px;
+    border: 10px solid #FFF;
+    box-sizing: border-box;
 }
 
 .portfolio_content > h4 {
@@ -277,12 +281,22 @@ ul li {
     margin-top: 0;
 }
 
-/**********         TEAM PAGE        ********** / 
+.portfolio_details > .container_sm > picture > img {
+    display: block;
+    width: 100%;
+}
 
-/*         TEAM          */ 
+.portfolio_details picture {
+    display: block;
+    margin-top: -200px;
+}
 
-
-
+.portfolio_details {
+    position: relative;
+    margin-top: 100px;
+    padding: 100px 0 0 0;
+    background: #F5F5F5;
+}
 
 
 
