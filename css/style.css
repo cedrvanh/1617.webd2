@@ -355,7 +355,9 @@ ul li {
     border-radius: 3px;
     font-size: 14px;
     padding: 16px;
+    opacity: .7;
     resize: vertical;
+    transition: all .3s ease;
 }
 
 .contactform .left {
@@ -379,9 +381,15 @@ ul li {
     height: 55px;
     border-radius: 3px;
     border: none;
+    opacity: .7;
     font-size: 14px;
     text-indent: 20px;
     color: #4e4e4e;
+    transition: all .3s ease;
+}
+
+input:hover, input:focus, textarea:hover, textarea:focus {
+    opacity: 1;
 }
 
 .location {
