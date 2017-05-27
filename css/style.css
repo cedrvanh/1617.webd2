@@ -28,6 +28,7 @@ p {
 
 a {
     text-decoration: none;
+    color: white;
 }
  
 ul li {
@@ -83,14 +84,14 @@ ul li {
 
 /*         NAVIGATION          */ 
 
-.nav {
+.main-nav {
     display: flex;
     justify-content: space-between;
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
 }
 
-.nav .logo {
+.main-nav .logo {
     font-size: 24px;
     font-weight: 900;
     padding: 20px 0;
@@ -156,18 +157,18 @@ ul li {
     margin: 0 auto;
 }
 
-.portfolio_home, .portfolio {
+.portfolio_home, .portfolio, .team {
     background: #F5F5F5;
     padding: 100px 0;
 }
 
-.portfolio_home:after, .portfolio:after {
+.portfolio_home:after, .portfolio:after, .team:after {
     content: '';
     display: table;
     clear: both;
 }
 
-.portfolio_home h3, .portfolio h3 {
+.portfolio_home h3, .portfolio h3, .team h3 {
     text-align: center;
 }
 
@@ -191,6 +192,12 @@ ul li {
     padding: 20px;
     background: #FFF;
     margin-bottom: 50px;
+}
+
+.portfolio .portfolio_item, .team .portfolio_item {
+    width: 31.666%;
+    float: left;
+    overflow: hidden;
 }
 
 .contact_home {
@@ -232,11 +239,21 @@ ul li {
     margin-top: 0;
 }
 
-.portfolio .portfolio_item {
-    width: 31.666%;
-    float: left;
-    overflow: hidden;
-}
+/**********         TEAM PAGE        ********** / 
+
+/*         TEAM          */ 
+
+
+
+
+
+
+
+
+
+
+
+
 
 /**********         CONTACT PAGE        ********** / 
 
