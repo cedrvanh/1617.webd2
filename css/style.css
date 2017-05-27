@@ -96,6 +96,7 @@ ul li {
     font-weight: 900;
     padding: 20px 0;
     color: white;
+    transition: all .2s ease-in-out;
 }
 
 .nav li {
@@ -109,7 +110,13 @@ ul li {
     text-decoration: none;
     color: white;
     line-height: 1.4;
+    transition: all .2s ease-in-out;
 }
+
+.main-nav a:hover, .main-nav h3:hover{
+    transform: translateY(5px);
+}
+
 
 /**********         HOME PAGE        ********** / 
 
