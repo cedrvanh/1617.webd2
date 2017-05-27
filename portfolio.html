@@ -22,6 +22,15 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
+        <nav class="mobile-nav">
+            <h3 class="logo"><a href="index.html">Lounge.</a></h3>
+            <div class="icon" onclick="mobileNav()">&#9776;</div>
+            <ul class="nav" id="dropdown">
+                <li><a href="portfolio.html">Portfolio</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
         <section class="container">
             <div class="header_text">
                 <h2><span class="light">BEKIJK AL ONZE</span><br> PROJECTEN</h2>
@@ -165,8 +174,10 @@
         </section>
     </section>
     <section class="contact_home">
-        <h2>Aarzel niet om ons te contacteren met eventuele vragen!</h2>
-        <a href="#" class="btn">Contacteer</a>
+        <div class="container">
+            <h3>Aarzel niet om ons te contacteren met eventuele vragen!</h3>
+            <a href="#" class="btn">Contacteer</a>
+        </div>
     </section>
     <footer class="footer">
         <div class="container">
@@ -207,5 +218,7 @@
             </ul>
         </div>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>

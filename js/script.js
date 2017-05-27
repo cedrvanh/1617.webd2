@@ -1,15 +1,13 @@
 function mobileNav() {
     var el = document.getElementById('dropdown');
 
-    if(el.style.display == "none") {
-        el.style.display="block";
-    }
-    else {
+    if(el.style.display == "block") {
         el.style.display="none";
     }
+    else {
+        el.style.display="block";
+    }
 }
-
-
 
 // global var googlemaps
 var googlemaps;
