@@ -252,7 +252,7 @@ ul li {
 
 /*         SECONDARY HEADER         */    
 
-.header_secondary {
+.header_secondary, .header_portfolio {
     position: relative;
     overflow: hidden;
     width: 100%;
@@ -262,7 +262,7 @@ ul li {
     z-index: 999;
 }
 
-.header_secondary > .overlay {
+.header_secondary > .overlay, .header_portfolio > .overlay {
     position: absolute;
     top: 0;
     left: 0;
@@ -281,6 +281,21 @@ ul li {
     margin-top: 0;
 }
 
+
+/**********         PORTFOLIO DETAILS       ********** / 
+
+/*        HEADER - DEPENDS WHICH ITEM DISPLAYS          */ 
+
+.header_portfolio {
+    height: 400px;
+    background: url('../img/details-header.jpg') no-repeat bottom;
+    background-size: cover;
+}
+
+.header_portfolio > .overlay {
+    height: 400px;
+}
+
 .portfolio_details > .container_sm > picture > img {
     display: block;
     width: 100%;
@@ -297,14 +312,6 @@ ul li {
     padding: 100px 0 0 0;
     background: #F5F5F5;
 }
-
-
-
-
-
-
-
-
 
 
 /**********         CONTACT PAGE        ********** / 
